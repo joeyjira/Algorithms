@@ -1,6 +1,6 @@
 function binarySearch(array, left, right, target)
 {
-  middle = left + right >>> 1;
+  let middle = left + right >>> 1;
 
   if (right >= left)
   {
@@ -18,7 +18,7 @@ function binarySearch(array, left, right, target)
     }
   }
 
-  return -1;
+  return null;
 }
 
 let testArray = [-10, -5, -2, 0, 1, 3, 5, 7];
