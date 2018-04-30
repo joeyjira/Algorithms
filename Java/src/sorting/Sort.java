@@ -25,4 +25,8 @@ public class Sort {
 		
 		return array;
 	}
+	
+	public int[] merge(int[] array, int p, int q, int r) {
+		return array;
+	}
 }
