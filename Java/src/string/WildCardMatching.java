@@ -3,7 +3,7 @@ package string;
 class WildCardMatching {
     public boolean isMatch(String s, String p) {
         char nextMatch;
-        char nextPattern;git
+        char nextPattern;
         int j = 0;
 
         for (int i = 0; i < p.length(); i++) {
