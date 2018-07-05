@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.*;
+
 public class FindMissingPositive {
     public int firstMissingPositive(int[] nums) {
       int max = Integer.MIN_VALUE;

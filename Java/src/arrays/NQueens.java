@@ -1,3 +1,5 @@
+package arrays;
+
 public class NQueens {
   final int N = 4;
 
@@ -105,7 +107,7 @@ public class NQueens {
     // driver program to test above function
     public static void main(String args[])
     {
-        NQueenProblem Queen = new NQueenProblem();
+        NQueens Queen = new NQueens();
         Queen.solveNQ();
     }
 }

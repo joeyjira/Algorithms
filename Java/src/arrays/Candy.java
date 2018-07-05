@@ -1,3 +1,7 @@
+package arrays;
+
+import java.util.*;
+
 public class Candy {
   public int candy(int[] ratings) {
         int sum = 0;
