@@ -1,3 +1,5 @@
+package string;
+
 public class Buddy {
   public boolean buddyStrings(String A, String B) {
     if (A.equals(B)) {

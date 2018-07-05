@@ -9,8 +9,10 @@ class WildCardMatching {
         for (int i = 0; i < p.length(); i++) {
             nextMatch = s.charAt(j);
             if (p.charAt(i) == '*') {
-                while ()
+                
             }
         }
+        
+        return true;
     }
 }

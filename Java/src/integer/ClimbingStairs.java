@@ -1,4 +1,6 @@
-public class ClimbingStairs.java {
+package integer;
+
+public class ClimbingStairs {
   public int climbStairs(int n) {
         if (n == 1) {
             return 1;

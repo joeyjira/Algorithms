@@ -1,3 +1,9 @@
+package string;
+
+import java.util.Set;
+import java.util.HashSet;
+import java.util.List;
+
 public class WordBreak {
   public boolean wordBreak(String s, List<String> wordDict) {
         Set<String> dictionary = new HashSet<>(wordDict);

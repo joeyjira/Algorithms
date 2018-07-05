@@ -1,3 +1,7 @@
+package tree;
+
+import java.util.*;
+
 public class BinaryTree {
   public List < Integer > inorderTraversal(TreeNode root) {
        List < Integer > res = new ArrayList < > ();
