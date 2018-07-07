@@ -20,4 +20,17 @@ public class Primitive {
 		
 		return x;
 	}
+	
+	public static long closestIntSameBit(long x) {
+		final int UNSIGNED_BITS = 63;
+		
+		for (int i = 0; i < 63; i++) {
+			if (((x >>> i) & 1) != ((x >>> (i + 1) & 1))) {
+				x ^= (1L << i) | (1L << i + 1);
+				return x;
+			}
+		}
+		
+		throw new IllegalArgumentException("All bits are 0 or 1");
+	}
 }
