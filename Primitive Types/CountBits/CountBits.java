@@ -8,5 +8,7 @@ public class CountBits {
       count += (x & 1);
       x >>>= 1;
     }
+
+    return count;
   }
 }
