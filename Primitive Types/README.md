@@ -29,5 +29,5 @@
   + nextDouble()
 
 ## Problems
-* CountBits
+* [CountBits](CountBits.java)
   + Count the number of bits that are set to 1 in an integer
