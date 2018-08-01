@@ -18,8 +18,8 @@
 15. Graphs
 16. Parallel Computing
 
-## [Primitive Types](./Primitive+Types)
-* [countBits](./Primitive+Types/CountBits.java)
+## [Primitive Types](./Primitive%20Types)
+* [countBits](./Primitive%20Types/CountBits.java)
 
 ## Arrays
 
