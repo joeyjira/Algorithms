@@ -19,7 +19,7 @@
 16. Parallel Computing
 
 ## [Primitive Types](./Primitive%20Types)
-* [countBits](./Primitive%20Types/CountBits.java)
+* [countBits](./Primitive%20Types/CountBits/CountBits.java)
 
 ## Arrays
 
