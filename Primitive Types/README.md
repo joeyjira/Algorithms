@@ -27,3 +27,7 @@
   + nextInt()
   + nextBoolean()
   + nextDouble()
+
+## Problems
+* CountBits
+  + Count the number of bits that are set to 1 in an integer
