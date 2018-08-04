@@ -23,3 +23,10 @@ function buildGraphs(edges) {
   }
   return graph;
 }
+
+const roadGraph = buildGraph(roads);
+
+function VillageState(place, parcels) {
+  this.place = place;
+  this.parcels = parcels;
+}
